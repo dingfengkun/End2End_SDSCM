@@ -1,0 +1,283 @@
+{
+  "description": "No description provided.",
+  "setup_sequence_sample_space": [
+    {
+      "variable_name": "firstborn",
+      "candidate_set": [
+        "The firstborn variable indicates if the infant is the first child in",
+        "The firstborn variable indicates if the baby is the first child in"
+      ],
+      "parent_indices": [],
+      "exogenous": true,
+      "intervention_choice": null
+    },
+    {
+      "variable_name": "sex_male",
+      "candidate_set": [
+        "The 'sex_male' variable indicates that the individual is",
+        "The variable \"sex_male\" indicates that the individual is"
+      ],
+      "parent_indices": [],
+      "exogenous": true,
+      "intervention_choice": null
+    },
+    {
+      "variable_name": "drank_alcohol",
+      "candidate_set": [
+        "Fetal development and child outcomes may be affected by the mother's",
+        "The value '0' for the variable 'drank_alcohol"
+      ],
+      "parent_indices": [],
+      "exogenous": true,
+      "intervention_choice": null
+    },
+    {
+      "variable_name": "used_drugs",
+      "candidate_set": [
+        "The 'used_drugs' variable indicated that the mother did",
+        "Fetal development and long-term health outcomes may be influenced by drugs"
+      ],
+      "parent_indices": [],
+      "exogenous": true,
+      "intervention_choice": null
+    },
+    {
+      "variable_name": "education",
+      "candidate_set": [
+        "A higher level of formal education is represented by the mother's",
+        "The mother does not have a degree but has some college education.",
+        "The mother attained a high school degree, placing her within the higher",
+        "The high school dropout level of the mother may indicate limited access to"
+      ],
+      "parent_indices": [],
+      "exogenous": true,
+      "intervention_choice": null
+    },
+    {
+      "variable_name": "birth_order",
+      "candidate_set": [
+        "The firstborn child within the family may have an impact on resource",
+        "The birth order indicates that the infant is not the firstborn,",
+        "The infant is the third or higher order child within the family,"
+      ],
+      "parent_indices": [
+        0
+      ],
+      "exogenous": false,
+      "intervention_choice": null
+    },
+    {
+      "variable_name": "worked_during_pregnancy",
+      "candidate_set": [
+        "The mother worked during her pregnancies and was categorized as having engaged in",
+        "The mother did not work during her pregnancies, suggesting she may have"
+      ],
+      "parent_indices": [
+        0
+      ],
+      "exogenous": false,
+      "intervention_choice": null
+    },
+    {
+      "variable_name": "neonatal_health_index",
+      "candidate_set": [
+        "The infant's health status during the first few days of life",
+        "The infant's health index is low, reflecting potential health risks",
+        "Significant health challenges can be seen in the infant's neonatal health"
+      ],
+      "parent_indices": [
+        0,
+        2,
+        4
+      ],
+      "exogenous": false,
+      "intervention_choice": null
+    },
+    {
+      "variable_name": "married",
+      "candidate_set": [
+        "The mother is not currently married and this could affect her access to",
+        "This variable shows the mother's marital status as being in a"
+      ],
+      "parent_indices": [
+        5,
+        6
+      ],
+      "exogenous": false,
+      "intervention_choice": null
+    },
+    {
+      "variable_name": "prenatal_care",
+      "candidate_set": [
+        "Fetal development and long-term health outcomes may be affected by the",
+        "The child's long-term health outcomes may be affected by"
+      ],
+      "parent_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "exogenous": false,
+      "intervention_choice": null
+    },
+    {
+      "variable_name": "head_circumference",
+      "candidate_set": [
+        "The infant's head circumference is within the normal range.",
+        "Potential developmental concerns that may be further investigated through additional assessments can be",
+        "The infant has a high head circumference, which may be a sign"
+      ],
+      "parent_indices": [
+        6,
+        7
+      ],
+      "exogenous": false,
+      "intervention_choice": null
+    },
+    {
+      "variable_name": "weeks_preterm",
+      "candidate_set": [
+        "The variable 'weeks_preterm' indicates whether the infant",
+        "The baby was classified as high-risk due to extreme preterm birth",
+        "The study's categorization scheme indicates that the infant was born at"
+      ],
+      "parent_indices": [
+        7
+      ],
+      "exogenous": false,
+      "intervention_choice": null
+    },
+    {
+      "variable_name": "mother_age",
+      "candidate_set": [
+        "The mother's age falls within the lowest category, which indicates",
+        "The mother's age is within the normal range, suggesting she",
+        "The mother's age suggests she may be more experienced or have"
+      ],
+      "parent_indices": [
+        2,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "exogenous": false,
+      "intervention_choice": null
+    },
+    {
+      "variable_name": "twin",
+      "candidate_set": [
+        "A value of 1 indicates that the infant is a twin.",
+        "The variable 'twin' indicates if the infant is part of a"
+      ],
+      "parent_indices": [
+        2,
+        3,
+        4,
+        7,
+        8,
+        10
+      ],
+      "exogenous": false,
+      "intervention_choice": null
+    },
+    {
+      "variable_name": "birth_weight",
+      "candidate_set": [
+        "The baby was born with a normal birth weight, which falls within",
+        "The infant was classified as having a low birth weight, which may",
+        "The infant was born with a high birth weight, which may indicate"
+      ],
+      "parent_indices": [
+        2,
+        6,
+        8,
+        11
+      ],
+      "exogenous": false,
+      "intervention_choice": null
+    },
+    {
+      "variable_name": "smoked_cigarettes",
+      "candidate_set": [
+        "The mother did not smoke cigarettes while pregnant, as indicated by the",
+        "The baby's development may be affected by the mother's"
+      ],
+      "parent_indices": [
+        0,
+        1,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "exogenous": false,
+      "intervention_choice": null
+    },
+    {
+      "variable_name": "t",
+      "candidate_set": [
+        "The variable 't' indicates that the infant did not receive the",
+        "The variable indicates that the baby was assigned to the treatment group."
+      ],
+      "parent_indices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "exogenous": false,
+      "intervention_choice": null
+    },
+    {
+      "variable_name": "yf",
+      "candidate_set": [
+        "The variable 'yf' shows that the individual did not receive",
+        "The child's cognitive score is indicated by the variable 'y",
+        "The variable 'yf' indicates that the individual is in the",
+        "The cognitive test score of the child at follow-up is represented",
+        "The cognitive test score of the child at follow-up is represented",
+        "The cognitive test score of the child at follow-up is represented",
+        "A value of 5 indicates a moderate level of cognitive performance for the",
+        "The variable 'yf' represents the cognitive test score of the",
+        "The cognitive test score of the child at follow-up is represented",
+        "A value of 9 indicates a moderate level of cognitive performance, while"
+      ],
+      "parent_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        16
+      ],
+      "exogenous": false,
+      "intervention_choice": null
+    }
+  ],
+  "index_of_intervention": 16,
+  "intervention_choices": [
+    0,
+    1,
+    2
+  ],
+  "index_of_outcome": 17,
+  "possible_outcome_choices": [
+    0,
+    1,
+    2,
+    3
+  ]
+}
